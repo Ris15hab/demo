@@ -1,0 +1,326 @@
+.home-api {
+
+    z-index: 90 !important;
+    font-family: 'League Spartan', sans-serif !important;
+}
+
+
+.api-box {
+    
+    max-height: 85vh;
+    border: none;
+    margin-left: 22vw;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    box-shadow: 4px 4px 6px #ffffff,
+        -4px -4px 6px #c5c5c5;
+    font-size: medium;
+    font-weight: bold;
+    width: 70vw;
+    float: left;
+    font-size: 16px;
+    color: #5A5A5A;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+.btn-api-1 {
+    width: 11.5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding: 0.9em 2em;
+    background: none;
+    border: 2px solid #fff;
+    font-size: 15px;
+    /* color: #131313; */
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 12px;
+    background-color: #E9CA16;
+    font-weight: bolder;
+
+}
+
+.btn-api-1:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #37BEC1;
+    top: 50%;
+    transform: skewX(30deg) translate(-150%, -50%);
+    transition: all 0.5s;
+}
+
+.btn-api-1:hover {
+    background-color: #4cc9f0;
+    color: #fff;
+    box-shadow: 0 2px 0 2px #0d3b66;
+}
+
+.btn-api-1:hover::before {
+    transform: skewX(30deg) translate(150%, -50%);
+    transition-delay: 0.1s;
+}
+
+.btn-api-1:active {
+    transform: scale(0.9);
+}
+
+
+.btn-api {
+    margin-top: 2vh;
+    padding: 0.9em 1.2em;
+    background: none;
+    border: 2px solid #fff;
+    font-size: 15px;
+    /* color: #131313; */
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 12px;
+    background-color: #37BEC1;
+    font-weight: bolder;
+
+}
+
+.btn-api:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #73def1;
+    top: 50%;
+    transform: skewX(30deg) translate(-150%, -50%);
+    transition: all 0.5s;
+}
+
+.btn-api:hover {
+    background-color: #E9CA16;
+    color: #fff;
+    box-shadow: 0 2px 0 2px #0d3b66;
+}
+
+.btn-api:hover::before {
+    transform: skewX(30deg) translate(150%, -50%);
+    transition-delay: 0.1s;
+}
+
+.btn-api:active {
+    transform: scale(0.9);
+}
+
+/* mobile-buttons    */
+
+.btn-api-1-mobile {
+    display: none;
+    width: 11vw;
+    margin-top: 4vh;
+    padding: 0.9em 2em;
+    background: none;
+    border: 2px solid #fff;
+    font-size: 15px;
+    /* color: #131313; */
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 12px;
+    background-color: #E9CA16;
+    font-weight: bolder;
+
+}
+
+.btn-api-1-mobile:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #37BEC1;
+    top: 50%;
+    transform: skewX(30deg) translate(-150%, -50%);
+    transition: all 0.5s;
+}
+
+.btn-api-1-mobile:hover {
+    background-color: #4cc9f0;
+    color: #fff;
+    box-shadow: 0 2px 0 2px #0d3b66;
+}
+
+.btn-api-1-mobile:hover::before {
+    transform: skewX(30deg) translate(150%, -50%);
+    transition-delay: 0.1s;
+}
+
+.btn-api-1-mobile:active {
+    transform: scale(0.9);
+}
+
+
+.btn-api-mobile {
+    display: none;
+    margin-top: 4vh;
+    padding: 0.9em 1.2em;
+    background: none;
+    border: 2px solid #fff;
+    font-size: 15px;
+    /* color: #131313; */
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 12px;
+    background-color: #37BEC1;
+    font-weight: bolder;
+
+}
+
+.btn-api-mobile:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #73def1;
+    top: 50%;
+    transform: skewX(30deg) translate(-150%, -50%);
+    transition: all 0.5s;
+}
+
+.btn-api-mobile:hover {
+    background-color: #E9CA16;
+    color: #fff;
+    box-shadow: 0 2px 0 2px #0d3b66;
+}
+
+.btn-api-mobile:hover::before {
+    transform: skewX(30deg) translate(150%, -50%);
+    transition-delay: 0.1s;
+}
+
+.btn-api-mobile:active {
+    transform: scale(0.9);
+}
+
+.note-head1 {
+    margin-left: 42vw !important;
+    font-family: "League Spartan" !important;
+    font-size: 20px !important;
+}
+
+
+.nodata1 {
+    width: 700px;
+    height: 'auto';
+    /* filter: drop-shadow(10px 10px 100px #e0e0e0) */
+    margin-left: 13vw !important;
+}
+
+@media screen and (max-width: 700px) {
+    .create_head {
+        padding-left: -12vw !important;
+    }
+
+    .nodata1 {
+        width: 400px !important;
+        height: 'auto';
+        margin-top: 12vh;
+        margin-left: 0px !important;
+    }
+
+    .note-head1 {
+        font-size: 16px !important;
+        margin-left: 5vw !important;
+    }
+
+    .api-box {
+        border: none;
+        margin-left: 10vw;
+        width: 80vw;
+        float: left;
+        font-size: 16px;
+        color: #5A5A5A;
+        margin-top: 5vh;
+    }
+
+    .typo-api {
+        font-size: 1.1rem;
+        margin-top: 2vh !important;
+    }
+
+    .btn-api {
+        display: none;
+    }
+
+    .btn-api-1 {
+        display: none;
+    }
+
+    .btn-api-mobile {
+        margin-left: 3vw;
+        display: block !important;
+        font-size: 0.7rem;
+        width: 35vw;
+        height: 7vh;
+        margin-bottom: 3vh;
+    }
+
+    .btn-api-1-mobile {
+
+        display: block !important;
+        font-size: 0.7rem;
+        width: 35vw;
+        height: 7vh;
+        margin-bottom: 3vh;
+        text-decoration: none !important;
+
+    }
+    .db-elipsis{
+        margin-top:3vh !important;
+        margin-right:5vw !important;
+    }
+    #loading_view {
+        margin-left: 7vw !important ;
+    }
+}
+
+.loading svg polyline {
+    fill: none;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
+  .loading svg polyline#back {
+    fill: none;
+    stroke: #d3d3d3;
+  }
+  
+  .loading svg polyline#front {
+    fill: none;
+    stroke: orange;
+    stroke-dasharray: 48, 144;
+    stroke-dashoffset: 192;
+    animation: dash_682 1.4s linear infinite;
+  }
+  .loading {
+    margin-left:10vw !important;
+  }
+  
+  @keyframes dash_682 {
+    72.5% {
+      opacity: 0;
+    }
+  
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  

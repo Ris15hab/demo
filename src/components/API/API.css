@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400&family=Poppins:wght@400;500;600&display=swap');
+
+.firstt{
+    padding-left: 20vw;
+    margin-top:5vh;
+  
+}
+
+.link-api{
+    word-wrap: break-word !important;
+}
+.thirdd{
+    border: none;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    box-shadow: 4px 4px 6px #ffffff,
+            -4px -4px 6px #c5c5c5;
+    font-size: medium;
+    font-weight: bold;
+    margin-left:2vw;
+    float: left;
+    font-size:16px;
+    max-width:70vw !important;
+    color:#5A5A5A;
+    margin-top:0vh;
+    margin-bottom: 2vh;
+} 
+.vertical-line-1{
+    
+    border: 1px solid gray;
+    margin-left:3vw;
+    height:35px;
+   
+}
+#clipboard-icon{
+    padding-right:3vw;
+    font-size:20px;
+}
+.vertical-line-2{
+    
+    border: 1px solid gray;
+    margin-right:3vw;
+    height:35px;
+   
+}
+@media screen and (max-width: 700px) {
+    .firstt{
+        padding-left: 8vw;
+        margin-top:5vh;
+      
+    }
+    .secondd{
+        margin-right:1vw !important;
+        font-size:18px !important;
+    }
+    .thirdd{
+        max-width:85vw !important;
+    }
+    .link-api{
+        font-size:10px !important;
+        word-wrap: break-word !important;
+       
+    }
+    .operation{
+        width:10vw;
+        font-size:10px !important;
+    }
+     #clipboard-icon{
+        font-size:15px!important;
+     }
+     .note-head{
+        margin-left:10vw !important;
+     }
+     .create_head-1{
+        padding-right:13vw !important
+     }
+
+   
+  }

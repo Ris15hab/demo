@@ -1,0 +1,68 @@
+.content-use-typo{
+    margin-left:20vw !important;
+    margin-right:2vw !important;
+    font-family: 'League Spartan', sans-serif !important;
+    font-size:1.2rem !important;
+    color:rgb(95, 91, 91)
+}
+.content-step1{
+    font-family: 'League Spartan', sans-serif !important;
+    color:rgb(95, 91, 91)
+}
+.content-use-step{
+    margin-left:20vw !important;
+    margin-right:2vw !important;
+    font-family: 'League Spartan', sans-serif !important;
+    font-size:1.2rem !important;
+    color:rgb(20, 19, 19)
+}
+.step2{
+    margin-left:20vw !important;
+    color:rgb(95, 91, 91)
+}
+.step3{
+    margin-left:20vw !important;
+    color:#0f8e90
+}
+@media screen and (max-width: 700px) {
+    .content-use-typo{
+        margin-left:6vw !important;
+        margin-right:6vw !important;
+        
+    }
+    .content-use-step{
+        margin-left:6vw !important;
+        margin-right:6vw !important;
+        
+    }
+    .content-step1{
+        margin-left:-14vw !important;
+
+    }
+    .firstimg{
+        margin-left:2vw !important;
+       
+        width:95vw !important;
+    }
+    .reqimg{
+        margin-left:-1vw !important;
+       
+        width:95vw !important;
+    }
+    .secondimg{
+        margin-left:-15vw !important;
+   
+    width:95vw !important;
+}
+    .step2{
+        margin-left:6vw !important
+    }
+    .step3{
+        margin-left:6vw !important
+    }
+    .zoom-icon{
+        display:none !important;
+    }
+
+   
+  }

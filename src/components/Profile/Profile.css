@@ -1,0 +1,227 @@
+.grid-profile{
+    padding-left:300px !important;
+    padding-right:50px;
+}
+.firstgrid{
+    background-color: #e8e8e8;
+    box-shadow: 4px 4px 6px #ffffff,
+                -4px -4px 6px #c5c5c5;
+    border-radius:15px;
+    padding:2vh;   
+    width:42vw;
+           
+}
+.leaderboard{
+    border-radius:15px;
+    padding:2vh;   
+    width:35vw;
+           
+}
+.circlee-badge{
+    border: none;
+    border-radius:50%;
+    /* height:6vh; */
+    background-color: #e8e8e8;
+    box-shadow: 2px 2px 4px #ffffff,
+                -2px -2px 4px #c5c5c5;
+    padding:4%;
+    height: 60px;
+    width: 60px;
+    border-style: solid;
+    border-color:#E9CA16;
+     /* animation: animName 2s linear infinite; */
+}
+.chart-profile{
+    margin-left:19vw;
+    width: 39vw !important;
+    /* height:20vh !important; */
+   
+}
+.chart-profile-1{
+    margin-top:5vh !important;
+    margin-left:19vw;
+    width: 39vw !important;
+   
+    /* height:20vh !important; */
+   
+}
+
+@keyframes animName {
+    0%{
+       transform: rotate(0deg);
+      }
+   100%{
+       transform: rotate(360deg);
+      }
+   }
+.badge-typo{
+    margin-top:2vh !important;
+    font-size: 30px;
+    color:#37BEC1;
+    font-family: 'League Spartan', sans-serif !important;
+}
+.badge-desc{
+    margin-top:1vh !important;
+    font-size: 30px;
+    color:#384041;
+    font-family: 'League Spartan', sans-serif !important;
+}
+.quickdb-grid{
+    border-radius:15px;
+    background-color: #e8e8e8;
+    box-shadow: 2px 2px 4px #ffffff,
+                -2px -2px 4px #c5c5c5;
+                height:24vh;
+                margin-right:2vw !important;
+}
+.quickdb-grid-2{
+    border-radius:15px;
+    background-color: #e8e8e8;
+    box-shadow: 2px 2px 4px #ffffff,
+                -2px -2px 4px #c5c5c5;
+                height:24vh;
+                margin-right:2vw !important;
+}
+.quickdb-grid-3{
+    border-radius:15px;
+    background-color: #e8e8e8;
+    box-shadow: 2px 2px 4px #ffffff,
+                -2px -2px 4px #c5c5c5;
+                height:24vh;
+                /* margin-right:2vw !important; */
+                width: 20vw;
+                margin-left: 30vw !important;
+                margin-top: 8vh;
+}
+.db-dash{
+    margin-right:3vw;
+    margin-top:2vh !important;
+    margin-left:1vw !important;
+    border: none;
+    border-radius:50%;
+    height:5vh;
+    background-color: #e8e8e8;
+    box-shadow: 2px 2px 4px #ffffff,
+                -2px -2px 4px #c5c5c5;
+    padding:5%;
+    height: 20px;
+    float:left;
+    width: 20px;
+    border-style: solid;
+    border-color:#37BEC1;
+    
+}
+.api-dash{
+    margin-right:3vw;
+    margin-top:2vh !important;
+    margin-left:1vw !important;
+    border: none;
+    border-radius:50%;
+    height:5vh;
+    background-color: #e8e8e8;
+    box-shadow: 2px 2px 4px #ffffff,
+                -2px -2px 4px #c5c5c5;
+    padding:5%;
+    height: 20px;
+    float:left;
+    width: 20px;
+    border-style: solid;
+    border-color:#A867E1;
+    
+}
+.profile_head{
+    font-family: 'League Spartan', sans-serif !important;
+}
+.top-db{
+    padding:12px;
+    
+    background-color: #e8e8e8;
+    box-shadow: 2px 2px 4px #ffffff,
+                -2px -2px 4px #c5c5c5;
+   border-radius:10px;
+   margin-left:20vw !important;
+    
+}
+.top-db-1{
+    padding:12px;
+    background-color: #e8e8e8;
+    box-shadow: 2px 2px 4px #ffffff,
+                -2px -2px 4px #c5c5c5;
+   margin-left:2vw !important;
+   border-radius:10px;
+
+    
+}
+@media screen and (max-width: 700px) {
+    .grid-profile{
+        padding-left:50px !important;
+        padding-right:50px;
+        padding-top:20px;
+    }
+    .firstgrid{
+        margin-top:3vh !important;
+        width:70vw !important;
+    }
+    .circlee-badge{
+       width:25px;
+       height:25px;
+    }
+   #star{
+    font-size:12px !important;
+    margin-top:0.1vh !important;
+   }
+    .quickdb-grid{
+       
+        width:36vw !important;
+    }
+    .quickdb-grid-2{
+        width:38vw !important;
+        margin-left:2vw !important;
+    }
+    .quickdb-grid-3{
+        width:70vw !important;
+        margin-left:17vw !important;
+        height: 19vh !important;
+        margin-bottom: 3vh;
+    }
+    #no-api-hit{
+        margin-left: 3vw !important;
+    }
+    .db-dash{
+        margin-left:4vw !important;
+    }
+    .api-dash{
+        margin-left:4vw !important;
+    }
+    .profile_head{
+        padding-left:16vw !important;
+    }
+    .top-db{
+       
+       margin-left:13vw !important;
+       margin-right:8vw !important;
+        
+    }
+    .top-db-1{
+       margin-top:3vh !important;
+       margin-left:13vw !important;
+       margin-right:8vw !important;
+    
+        
+    }
+    .chart-profile{
+        margin-left:8vw !important;
+        width: 84vw !important;
+        /* height:20vh !important; */
+       
+    }
+    .chart-profile-1{
+        margin-left:8vw !important;
+        width: 84vw !important;
+        /* height:20vh !important; */
+       
+    }
+    .display-head1{
+        margin-left:26vw !important;
+    }
+}

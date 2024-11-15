@@ -1,0 +1,202 @@
+.grid-collection{
+    padding-left:20vw;
+
+}
+.collection-box{
+    
+    max-height:90vh;
+    border: none;
+    margin-left:2vw;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    box-shadow: 4px 4px 6px #ffffff,
+            -4px -4px 6px #c5c5c5;
+    font-size: medium;
+    font-weight: bold;
+    width:70vw;
+    float: left;
+    font-size:16px;
+    color:#5A5A5A;
+    padding-top:2vh;
+    padding-bottom:4vh;
+} 
+.collection-add{
+    
+    max-height:5vh;
+    border: none;
+    height:3vh;
+    margin-left:0.5vw;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    box-shadow: 4px 4px 6px #ffffff,
+            -4px -4px 6px #c5c5c5;
+    font-size: medium;
+    font-weight: bold;
+    width:5vw;
+    float: left;
+    font-size:16px;
+    color:#438C8E;
+    padding-top:1.5vh;
+    padding-bottom:1.5vh;
+    
+}
+.collection-document{
+    
+    /* max-height:10vh; */
+    border: none;
+  
+    margin-left:2vw;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    box-shadow: 4px 4px 6px #ffffff,
+            -4px -4px 6px #c5c5c5;
+    font-size: medium;
+    font-weight: bold;
+    width:10vw;
+    float: left;
+    font-size:14px;
+    color:#438C8E;
+    padding-top:1.5vh;
+    padding-bottom:1.5vh;
+    
+}
+.collection-add{
+    
+    max-height:5vh;
+    border: none;
+    height:3vh;
+    margin-left:0.5vw;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    box-shadow: 4px 4px 6px #ffffff,
+            -4px -4px 6px #c5c5c5;
+    font-size: medium;
+    font-weight: bold;
+    width:5vw;
+    float: left;
+    font-size:16px;
+    color:#58ac7b;
+    padding-top:1.5vh;
+    padding-bottom:1.5vh;
+    
+}
+.collection-refresh{
+    
+    max-height:5vh;
+    border: none;
+    height:3vh;
+    margin-left:0.5vw;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    box-shadow: 4px 4px 6px #ffffff,
+            -4px -4px 6px #c5c5c5;
+    font-size: medium;
+    font-weight: bold;
+    width:5vw;
+    float: left;
+    font-size:16px;
+    color:#58ac7b;
+    padding-top:1.5vh;
+    padding-bottom:1.5vh;
+    
+}
+.collection-drop{
+    
+    max-height:5vh;
+    border: none;
+    height:3vh;
+    margin-left:0.5vw;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    box-shadow: 4px 4px 6px #ffffff,
+            -4px -4px 6px #c5c5c5;
+    font-size: medium;
+    font-weight: bold;
+    width:5vw;
+    float: left;
+    font-size:16px;
+    color:#c07b71;
+    padding-top:1.5vh;
+    padding-bottom:1.5vh;
+    
+}
+.count-collection{
+    
+    border: none;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    font-size: medium;
+    font-weight: bold;
+    float: left;
+    font-size:18px;
+    color:#438C8E;
+    
+   
+} 
+.note-head2{
+    margin-left:29vw !important;
+    font-family:"League Spartan"!important;
+    font-size: 20px !important;;
+}
+
+.nodata2{
+    width: 600px;
+    height: auto;
+    margin-left: 17vw !important;
+}
+#loading_collection{
+    margin-left: 34vw !important;
+}
+@media screen and (max-width: 700px) {
+    .loading{
+        margin-left:38vw !important;
+    }
+    .grid-collection{
+        padding-left: 8vw;
+        margin-top:5vh;
+        margin-bottom:4vh;
+      
+    }
+    .count-collection{
+        font-size:15px;
+        margin-top:3vh !important;
+        margin-bottom:3vh !important;
+    }
+    .modal-box-delete{
+        width:50vw !important;
+        padding:5% !important;
+    }
+    .nodata2{
+        width: 400px !important;
+        height: 'auto';
+        margin-left: -10vw !important;
+        margin-top: 10vh;
+    }
+    .note-head2{
+        font-size: 20px !important;
+        margin-left: 16vw !important;
+        margin-top: 1vh !important;
+    }
+    .collection-document{
+        margin-top:3vh !important;
+        padding-top:1vh;
+        width:20vw !important;
+        font-size: 13px;
+        height:5.5vh;
+    }
+    .collection-add{
+       margin-left:5vw;
+       height:6vh;
+       width:15vw;
+    }
+    .collection-drop{
+        margin-left:3vw;
+        height:6vh;
+        width:15vw;
+     }
+     .collection-refresh{
+        margin-left:1vw;
+        height:6vh;
+        width:15vw;
+     }
+  }
